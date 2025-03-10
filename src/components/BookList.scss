@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 50px;
+
+  h1 {
+    margin: 10px 0px;
+  }
+
+  .table {
+    box-shadow: 5px 0px 10px rgb(160, 160, 158);
+  }
+
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button {
+    margin: 0% 5px;
+  }
+
+  .deactivate {
+    width: 40%;
+  }
+
+  .dropdown {
+    margin: 10px 0px;
+  }
+
+  .btn-primary {
+    max-width: 10%;
+  }
+  .highlighted {
+    color: rgba(246, 15, 15, 0.762) !important;
+  }
+}

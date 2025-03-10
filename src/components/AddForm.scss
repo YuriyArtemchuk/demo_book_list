@@ -1,0 +1,105 @@
+.container-form {
+  .form {
+    position: relative;
+    padding: 1rem;
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    background-color: white;
+    width: 50%;
+  }
+
+  h2 {
+    margin: auto;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .control {
+    margin-bottom: 0.5rem;
+  }
+
+  .control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .control input {
+    font: inherit;
+    padding: 0.2rem;
+    border-radius: 5px;
+    background-color: #f3f1f0;
+    border: 1px solid #dfc8bc;
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .input {
+    font: inherit;
+    padding: 0.2rem;
+    border-radius: 5px;
+    background-color: #f3f1f0;
+    border: 1px solid #dfc8bc;
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .control input:focus {
+    background-color: #fce6ce;
+    outline-color: #f48405;
+  }
+
+  // .error {
+  //   background-color: #fce6ce;
+  //   outline-color: #f48405;
+  // }
+  .error {
+    border: 2px solid #f48405;
+    box-shadow: 0 0 5px #f48405;
+    background-color: #fce6ce;
+  }
+
+  .actions {
+    text-align: right;
+  }
+
+  .control button {
+    min-width: 100%;
+    text-align: left;
+    background-color: #f3f1f0;
+    border-color: #f3f1f0;
+    color: black;
+  }
+
+  .control button:hover,
+  .control button:focus,
+  .control button:active {
+    background-color: #f3f1f0;
+    color: black;
+  }
+
+  .btn-book {
+    background-color: #f48405;
+    padding: 5px 10px;
+    color: white;
+    border: 1px;
+    border-radius: 7px;
+    border-color: #f48405;
+  }
+
+  .btn-book:active {
+    background-color: #f49805;
+    transform: scale(0.98);
+  }
+
+  .redirect-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+}

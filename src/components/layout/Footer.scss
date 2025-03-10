@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  background-color: #dee2e6;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 50px;
+  box-shadow: 5px 3px 10px rgb(84, 84, 83);
+
+  .footer-container a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+  }
+
+  .footer-container a:hover {
+    text-decoration: underline;
+    font-weight: 800;
+  }
+}
